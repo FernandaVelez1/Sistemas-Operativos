@@ -358,7 +358,7 @@ int main() {
 El código implementa el algoritmo LRU (Least Recently Used), que se utiliza para gestionar el reemplazo de páginas en un sistema de memoria virtual. 
 
 ```c
-**Diseño del programa**
+Diseño del programa
 ```
 - *Definiciones:*
     - #define NUM_FRAMES 3: 
@@ -510,7 +510,7 @@ int main() {
 ```
 El código emula un sistema de memoria virtual simplificado con swapping. Simula un conjunto de procesos cargados en memoria y cómo algunos se mueven a disco cuando no hay suficiente espacio.
 ```c
-**Diseño del programa**
+Diseño del programa
 ```
 - Se define una estructura Process que representa cada proceso con un identificador, tamaño, y su estado (RAM o disco).
 
